@@ -1,6 +1,9 @@
 # Build and Run
 Ensure a [Cassandra](http://cassandra.apache.org/) Instance is running before running the quote service. 
 ```
+${cassandra_root}/bin/cassandra
+```
+```
 mvn clean install
 java -jar target/quote-service-0.1.0.jar
 ```
@@ -22,4 +25,3 @@ Quotes are randomly selected from those in the database. Example response:
 ```
 “That brain of mine is something more than merely mortal; as time will show.” - Ada Lovelace
 ```
-
