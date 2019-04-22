@@ -1,8 +1,10 @@
 # Build and Run
+Ensure a [Cassandra](http://cassandra.apache.org/) Instance is running before running the quote service. 
 ```
 mvn clean install
 java -jar target/quote-service-0.1.0.jar
 ```
+
 
 # Adding new quotes
 ### **POST** http://localhost:8080/addQuote
