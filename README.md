@@ -14,7 +14,7 @@ java -jar target/quote-service-0.1.0.jar
 Example body: 
 ```
 {
-	"quote" : The most dangerous phrase in the language is, "We've always done it this way.",
+	"quote" : "The most dangerous phrase in the language is, 'We've always done it this way.'",
 	"author": "Grace Hopper"
 }
 ```
