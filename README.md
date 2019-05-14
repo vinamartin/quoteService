@@ -1,3 +1,5 @@
+# Quote Service
+A demo spring boot app to test Cassandra + Spring Boot.
 # Build and Run
 Ensure a [Cassandra](http://cassandra.apache.org/) Instance is running before running the quote service. 
 ```
